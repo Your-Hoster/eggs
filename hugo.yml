@@ -1,7 +1,7 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://pelican-eggs.github.io"
-title: Eggs Nest
+baseURL: "https://your-hoster.github.io/eggs/"
+title: Your Hoster Eggs
 theme: [hugo-PaperMod]
 
 enableInlineShortcodes: true
@@ -45,8 +45,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Pelican Eggs"
-  author: ["Michael Parker"] 
+  description: "Your Hoster Eggs"
+  author: ["Pascal"] 
 
   defaultTheme: auto
   # disableThemeToggle: true
@@ -78,12 +78,12 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Eggs Nest"
+    Title: "Your Hoster Eggs"
     Content: >
-      👋 Welcome to The Eggs Nest  
+      👋 Welcome to Your Hoster Eggs
 
 
-      This is a curated list of available eggs for Pelican and Pterodactyl sorted from a set of configured repositories  
+      This is a curated list of available eggs for Your Hoster sorted from a set of configured repositories  
 
 
       All eggs are sorted by the type of server they are hosting.
